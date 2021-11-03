@@ -1,0 +1,133 @@
+
+/*
+Theme Name: Basic Blog
+Theme URI: https://wordpress.org/themes/basic-blog/
+Author: the WordPress team
+Author URI: https://zahidhasan.me/
+Description: Basic Blog is a hyper minimal blogging theme.
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: basic-blog
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: ;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;}
+.wrapper{
+    width: 100%;
+    background-size: cover;
+    overflow-x: auto;
+    position: static;
+}
+.container{
+    width:1200px;
+    background:aliceblue;
+    margin: 40px auto;
+    padding: 70px 20px;
+    border-radius: 20px;
+}
+.header{
+   width: 80%;
+   margin:20px auto;
+   padding: 10px;
+   background-color: rgb(255, 238, 0);
+   background-image: url(img/header_bg.jpg);
+}
+.header h1, .header h3{
+    text-align:center;
+    color: wheat;
+     
+}
+.blog-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+.post{
+    width:32%;
+    height: auto;
+    margin: 7px;
+    padding: 10px;
+    border: 1px solid rgb(214, 212, 212);
+    background-color: azure;
+
+}
+.post img{
+    width: 100%;
+}
+.date-author{
+    display: flex;
+    margin:10px 0px;
+}
+.read-more{
+    margin-top: 10px;
+    display: block;
+}
+.post h2{
+    margin-bottom: 5px;
+}
+.author{
+    margin-left: 10px;
+    background-color: rgb(56, 56, 56);
+    color: blanchedalmond;
+    padding: 3px 5px;
+
+}
+.date{
+    background-color: rgb(56, 56, 56);
+    color: blanchedalmond;
+    padding: 3px 5px;
+}
+.post-image{
+    height: 200px;
+}
+.single-post .date {
+    background-color: transparent;
+    color: black;
+    padding: 3px 5px;
+    margin: auto;
+    display: block;
+    width: 178px;
+    text-align: center;
+    margin-top: 10px;
+    }
+    .single-post .author {
+        background-color: transparent;
+        color: black;
+        padding: 3px 5px;
+        margin:10px auto;
+        display: block;
+        width: 178px;
+        text-align: center;
+        }
+
+    .single-post-image{
+        display: block;
+        margin: auto;
+    }
+    .single-post h2{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .single-post p{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .comments{
+        width: 80%;
+        margin:100px auto;
+    }
